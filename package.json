@@ -1,0 +1,49 @@
+{
+  "name": "intuitive-flexbox",
+  "version": "1.0.2",
+  "description": "Intuitive flexbox components for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "react",
+    "flex",
+    "vbox",
+    "hbox"
+  ],
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.esm.js"
+    },
+    "./dist/index.js": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.esm.js"
+    },
+    "./dist/index.esm.js": {
+      "import": "./dist/index.esm.js"
+    }
+  },
+  "author": "trigramco",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.0",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@types/react": "^18.0.28",
+    "babel-jest": "^29.4.3",
+    "rollup": "^3.18.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
