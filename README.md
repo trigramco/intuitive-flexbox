@@ -55,4 +55,4 @@ export default function HomePage() {
 
 ## Mad Props
 
-  <p>to Theodorus Clarence for this: <a href="https://github.com/theodorusclarence/ts-nextjs-tailwind-starter"></a></p>
+  <p>to Theodorus Clarence for this <a href="https://github.com/theodorusclarence/ts-nextjs-tailwind-starter">https://github.com/theodorusclarence/ts-nextjs-tailwind-starter</a></p>
