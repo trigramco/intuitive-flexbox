@@ -1,4 +1,4 @@
-# Intuitive Flexbox demo
+# Intuitive Flexbox
 
 ## Installation
 
