@@ -18,19 +18,11 @@
     "vbox",
     "hbox"
   ],
-  "types": "dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
-    ".": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.esm.js"
-    },
-    "./dist/index.js": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.esm.js"
-    },
-    "./dist/index.esm.js": {
-      "import": "./dist/index.esm.js"
-    }
+    "types": "./dist/index.d.ts",
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs"
   },
   "author": "trigramco",
   "license": "MIT",
