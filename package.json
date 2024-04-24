@@ -1,6 +1,6 @@
 {
   "name": "intuitive-flexbox",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "repository": {
     "type": "git",
     "url": "https://github.com/trigramco/intuitive-flexbox"
@@ -22,7 +22,8 @@
   "exports": {
     ".": {
       "require": "./dist/index.js",
-      "import": "./dist/index.esm.js"
+      "import": "./dist/index.esm.js",
+      "types": "./dist/index.d.ts"
     },
     "./dist/index.js": {
       "require": "./dist/index.js",
