@@ -1,12 +1,12 @@
 {
   "name": "intuitive-flexbox",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": {
     "type": "git",
     "url": "https://github.com/trigramco/intuitive-flexbox"
   },
   "description": "Intuitive flexbox components for react",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
