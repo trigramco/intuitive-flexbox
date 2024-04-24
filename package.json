@@ -1,6 +1,6 @@
 {
   "name": "intuitive-flexbox",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": {
     "type": "git",
     "url": "https://github.com/trigramco/intuitive-flexbox"
@@ -18,19 +18,11 @@
     "vbox",
     "hbox"
   ],
-  "types": "dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
-    ".": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.esm.js"
-    },
-    "./dist/index.js": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.esm.js"
-    },
-    "./dist/index.esm.js": {
-      "import": "./dist/index.esm.js"
-    }
+    "types": "./dist/index.d.ts",
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs"
   },
   "author": "trigramco",
   "license": "MIT",
